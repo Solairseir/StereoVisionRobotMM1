@@ -1,0 +1,5 @@
+3/16/2015 11:14:30 AM : Application Started
+3/16/2015 11:14:37 AM : (!)Error On Reading Stereo Config
+3/16/2015 11:14:37 AM : (!)Error On Reading Stereo Config
+3/16/2015 11:14:41 AM : Application Closed by User
+3/16/2015 11:15:08 AM : Application Started

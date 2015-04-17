@@ -1,0 +1,3 @@
+4/16/2014 6:01:22 PM : Application Started
+4/16/2014 6:01:24 PM : (!)Error On Right Camera
+4/16/2014 6:01:25 PM : (!)Error On Left Camera

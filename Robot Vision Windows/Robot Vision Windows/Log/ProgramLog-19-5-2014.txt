@@ -1,0 +1,19 @@
+5/19/2014 6:30:57 PM : Application Started
+5/19/2014 6:30:58 PM : (!)Error On Right Camera
+5/19/2014 6:30:59 PM : (!)Error On Left Camera
+5/19/2014 6:34:02 PM : Application Started
+5/19/2014 6:34:03 PM : (!)Error On Right Camera
+5/19/2014 6:34:03 PM : (!)Error On Left Camera
+5/19/2014 6:35:12 PM : Application Started
+5/19/2014 6:35:13 PM : (!)Error On Right Camera
+5/19/2014 6:35:14 PM : (!)Error On Left Camera
+5/19/2014 6:35:19 PM : Application Closed by User
+5/19/2014 6:36:00 PM : Application Started
+5/19/2014 6:36:02 PM : (!)Error On Right Camera
+5/19/2014 6:36:05 PM : Application Closed by User
+5/19/2014 6:36:10 PM : Application Started
+5/19/2014 6:36:10 PM : (!)Error On Right Camera
+5/19/2014 6:36:15 PM : Application Closed by User
+5/19/2014 6:46:54 PM : Application Started
+5/19/2014 6:46:54 PM : (!)Error On Right Camera
+5/19/2014 6:47:18 PM : Application Closed by User

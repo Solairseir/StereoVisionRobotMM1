@@ -1,0 +1,191 @@
+  RobotVisionWindows.frmPortConfig.resources - Embedded, ContainedInManifestFile, 
+  RobotVisionWindows.frmCameraProperties.resources - Embedded, ContainedInManifestFile, 
+  RobotVisionWindows.ImageResource.resources - Embedded, ContainedInManifestFile, 
+  RobotVisionWindows.MainForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Robot Vision, Version=2.4.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly Microsoft.VisualBasic, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class RobotVisionWindows.GlobarVars: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 SensorSpeed : Public, Static
+Class RobotVisionWindows.frmPortConfig: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    Initialize(String): PrivateScope, Public, HideBySig
+Class RobotVisionWindows.frmCameraProperties: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(RobotVisionWindows.StereoVision*, System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class RobotVisionWindows.SerialPorts: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    PortOpen(String, Int32): PrivateScope, Public, HideBySig
+    PortOpenRetry(): PrivateScope, Public, HideBySig
+    PortClose(): PrivateScope, Public, HideBySig
+    PortRead(): PrivateScope, Public, HideBySig
+    PortWrite(Byte[], Int32): PrivateScope, Public, HideBySig
+    PortWrite(String): PrivateScope, Public, HideBySig
+    PortWriteLine(String): PrivateScope, Public, HideBySig
+    PortIsOpen(): PrivateScope, Public, HideBySig
+    ~SerialPorts(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.MotorCommunication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Initialize(String, Int32): PrivateScope, Public, HideBySig
+    ClosePort(): PrivateScope, Public, HideBySig
+    PortIsOpen(): PrivateScope, Public, HideBySig
+    ActivateServo(Int32): PrivateScope, Public, HideBySig
+    DeactivateServo(Int32): PrivateScope, Public, HideBySig
+    TurnServo(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    ~MotorCommunication(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.RobotControl: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Initialize(String, Int32): PrivateScope, Public, HideBySig
+    ClosePort(): PrivateScope, Public, HideBySig
+    PortIsOpen(): PrivateScope, Public, HideBySig
+    MoveForward(Int32, Int32): PrivateScope, Public, HideBySig
+    MoveBackward(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnLeft(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnRight(Int32, Int32): PrivateScope, Public, HideBySig
+    BothMotorStop(): PrivateScope, Public, HideBySig
+    TurnServo(Int32, Int32, Int32): PrivateScope, Public, HideBySig
+    TurnServoOn(Int32): PrivateScope, Public, HideBySig
+    TurnServoOff(Int32): PrivateScope, Public, HideBySig
+    ~RobotControl(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.SensorCommunication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Initialize(String, Int32): PrivateScope, Public, HideBySig
+    ClosePort(): PrivateScope, Public, HideBySig
+    PortIsOpen(): PrivateScope, Public, HideBySig
+    TurnOn12V(): PrivateScope, Public, HideBySig
+    TurnOn6V(): PrivateScope, Public, HideBySig
+    TurnOff12V(): PrivateScope, Public, HideBySig
+    TurnOff6V(): PrivateScope, Public, HideBySig
+    ResetEncoders(): PrivateScope, Public, HideBySig
+    Humidity(): PrivateScope, Public, HideBySig
+    Temperature(): PrivateScope, Public, HideBySig
+    LeftPos(): PrivateScope, Public, HideBySig
+    RightPos(): PrivateScope, Public, HideBySig
+    BattNUCCurrent(): PrivateScope, Public, HideBySig
+    Batt6Current(): PrivateScope, Public, HideBySig
+    Batt12Current(): PrivateScope, Public, HideBySig
+    Batt6V(): PrivateScope, Public, HideBySig
+    Batt12V(): PrivateScope, Public, HideBySig
+    BattNUCV(): PrivateScope, Public, HideBySig
+    ~SensorCommunication(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.IMUCommunication: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    Initialize(String, Int32): PrivateScope, Public, HideBySig
+    ClosePort(): PrivateScope, Public, HideBySig
+    PortIsOpen(): PrivateScope, Public, HideBySig
+    ReadData(pair<int\,std::pair<int\,int> >*): PrivateScope, Public, HideBySig
+    analyzeData(String): PrivateScope, Public, HideBySig
+    ~IMUCommunication(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.CommunicationHandler: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.IDisposable
+  Methods:
+    InitializeIMU(String, Int32): PrivateScope, Public, HideBySig
+    InitializeSensors(String, Int32): PrivateScope, Public, HideBySig
+    InitializeMotors(String, Int32): PrivateScope, Public, HideBySig
+    CloseMotorsPort(): PrivateScope, Public, HideBySig
+    CloseSensorsPort(): PrivateScope, Public, HideBySig
+    CloseIMUPort(): PrivateScope, Public, HideBySig
+    MotorsPortIsOpen(): PrivateScope, Public, HideBySig
+    SensorsPortIsOpen(): PrivateScope, Public, HideBySig
+    IMUPortIsOpen(): PrivateScope, Public, HideBySig
+    TurnOnMotors(): PrivateScope, Public, HideBySig
+    TurnOnServos(): PrivateScope, Public, HideBySig
+    TurnOffMotors(): PrivateScope, Public, HideBySig
+    TurnOffServos(): PrivateScope, Public, HideBySig
+    ResetEncodersPositions(): PrivateScope, Public, HideBySig
+    Humidity(): PrivateScope, Public, HideBySig
+    Temperature(): PrivateScope, Public, HideBySig
+    LeftEncoderPosition(): PrivateScope, Public, HideBySig
+    RightEncoderPosition(): PrivateScope, Public, HideBySig
+    ServoBatteryVoltage(): PrivateScope, Public, HideBySig
+    MotorBatteryVoltage(): PrivateScope, Public, HideBySig
+    NUCBatteryVoltage(): PrivateScope, Public, HideBySig
+    MotorBatteryCurrent(): PrivateScope, Public, HideBySig
+    ServoBatteryCurrent(): PrivateScope, Public, HideBySig
+    NUCBatteryCurrent(): PrivateScope, Public, HideBySig
+    MoveForward(Int32, Int32): PrivateScope, Public, HideBySig
+    MoveBackward(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnLeft(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnRight(Int32, Int32): PrivateScope, Public, HideBySig
+    BothMotorStop(): PrivateScope, Public, HideBySig
+    TurnLeftCameraServo(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnRightCameraServo(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnUpperTiltServo(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnMiddleTiltServo(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnBottomTiltServo(Int32, Int32): PrivateScope, Public, HideBySig
+    TurnPanServo(Int32, Int32): PrivateScope, Public, HideBySig
+    findRobotMovmentByEncoders(pair<double\,double>*): PrivateScope, Public, HideBySig
+    ReadIMU(pair<int\,std::pair<int\,int> >*): PrivateScope, Public, HideBySig
+    ~CommunicationHandler(): PrivateScope, Public, HideBySig
+    Dispose(): PrivateScope, Public, Final, Virtual, HideBySig
+Class RobotVisionWindows.SaveAndLoadConfigurations: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    Int32 LeftCameraAngle : Public
+    Int32 RightCameraAngle : Public
+    Int32[] CamerasUpperTiltAngle : Public
+    Int32[] CamerasMiddleTiltAngle : Public
+    Int32[] CamerasBottomTiltAngle : Public
+    Int32[] CamerasPanAngle : Public
+    Int32 ServoSpeed : Public
+    Int32 RobotSpeed : Public
+    Int32 SamplingDistance : Public
+    Int32 AvoidanceDistance : Public
+    System.String MotorPort : Public
+    Int32 MotorBaudRate : Public
+    System.String SensorPort : Public
+    Int32 SensorBaudRate : Public
+    System.String IMUPort : Public
+    Int32 IMUBaudRate : Public
+    Double MotorBatteryLow : Public
+    Double ServoBatteryLow : Public
+    Double NUCBatteryLow : Public
+  Methods:
+    Initialize(String): PrivateScope, Public, HideBySig
+    SaveConfigs(): PrivateScope, Public, HideBySig
+    LoadConfigs(): PrivateScope, Public, HideBySig
+Class RobotVisionWindows.MainForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName

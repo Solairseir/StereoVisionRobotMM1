@@ -1,0 +1,78 @@
+***Motors Configuration***
+Left  Camera Angle : 78
+Right Camera Angle : 80
+Cameras Pan  Angle : 170
+Cameras Pan  Angle : 140
+Cameras Pan  Angle : 160
+Cameras Tilt Angle : 80
+Servo Speed        : 25
+Robot Speed        : 10
+
+***Path Planning Configuration***
+Sampling Distance  : 1
+Avoidance Distance : 1
+
+***Ports Configuration***
+Motor Port         : COM4
+Motor BuadRate     : 9600
+Sensor Port        : COM3
+Sensor BuadRate    : 9600
+IMU Port           : COM5
+IMU BuadRate       : 57600
+
+***Right Camera Configuration***
+Brightness         : 150
+Contrast           : 50
+Saturation         : 50
+Gain               : 60
+Exposure           : -5
+White Balance      : 6500
+Sharpness          : 50
+Zoom               : 1
+Focus              : 34
+
+***Left Camera Configuration***
+Brightness         : 150
+Contrast           : 50
+Saturation         : 50
+Gain               : 60
+Exposure           : -5
+White Balance      : 6500
+Sharpness          : 50
+Zoom               : 1
+Focus              : 34
+
+***Stereo Vision Configuration***
+Left  Camera ID    : 0
+Right Camera ID    : 1
+NumberOfDisparities: 48
+SAD Window Size    : 21
+Speckles new Val   : 0
+Max Speckle Size   : 500
+Max Speckle Diff   : 25
+Dilate             : 2
+Blur               : 3
+
+***Low Battery Configuration***
+Motor Battery Low  : 9.00
+Servo Battery Low  : 9.00
+NUC Battery Low    : 9.00
+
+***Arm Configuration [2]***
+Cameras Pan  Angle : 90
+Cameras Pan  Angle : 20
+Cameras Pan  Angle : 100
+Cameras Tilt Angle : 80
+
+***Arm Configuration [3]***
+Cameras Pan  Angle : 90
+Cameras Pan  Angle : 10
+Cameras Pan  Angle : 50
+Cameras Tilt Angle : 80
+
+***Arm Configuration [4]***
+Cameras Pan  Angle : 90
+Cameras Pan  Angle : 90
+Cameras Pan  Angle : 90
+Cameras Tilt Angle : 80
+

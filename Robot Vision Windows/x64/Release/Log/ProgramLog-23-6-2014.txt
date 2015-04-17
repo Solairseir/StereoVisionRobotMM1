@@ -1,0 +1,3 @@
+06/23/2014 08:59:58 PM : Application Started
+06/23/2014 08:59:59 PM : (!)Error On Right Camera
+06/23/2014 09:00:19 PM : Application Closed by User

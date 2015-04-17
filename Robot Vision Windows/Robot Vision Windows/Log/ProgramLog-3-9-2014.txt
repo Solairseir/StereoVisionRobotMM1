@@ -1,0 +1,36 @@
+9/3/2014 10:01:43 AM : Application Started
+9/3/2014 10:01:44 AM : (!)Error On Right Camera
+9/3/2014 10:01:45 AM : (!)Error On Left Camera
+9/3/2014 10:01:47 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:01:47 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:02:11 AM : Application Closed by User
+9/3/2014 10:02:37 AM : Application Started
+9/3/2014 10:02:38 AM : (!)Error On Right Camera
+9/3/2014 10:02:38 AM : (!)Error On Left Camera
+9/3/2014 10:02:40 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:02:40 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:03:05 AM : Application Closed by User
+9/3/2014 10:07:37 AM : Application Started
+9/3/2014 10:07:38 AM : (!)Error On Right Camera
+9/3/2014 10:07:38 AM : (!)Error On Left Camera
+9/3/2014 10:07:40 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:07:40 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:07:46 AM : Application Closed by User
+9/3/2014 10:08:35 AM : Application Started
+9/3/2014 10:08:38 AM : (!)Error On Right Camera
+9/3/2014 10:08:39 AM : (!)Error On Left Camera
+9/3/2014 10:08:40 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:08:41 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:08:46 AM : Application Closed by User
+9/3/2014 10:43:55 AM : Application Started
+9/3/2014 10:43:56 AM : (!)Error On Right Camera
+9/3/2014 10:43:56 AM : (!)Error On Left Camera
+9/3/2014 10:43:57 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:43:58 AM : (!)Error On Reading Stereo Config
+9/3/2014 10:44:05 AM : Application Closed by User
+9/3/2014 12:56:33 PM : Application Started
+9/3/2014 12:56:34 PM : (!)Error On Right Camera
+9/3/2014 12:56:35 PM : (!)Error On Left Camera
+9/3/2014 12:56:36 PM : (!)Error On Reading Stereo Config
+9/3/2014 12:56:36 PM : (!)Error On Reading Stereo Config
+9/3/2014 12:56:50 PM : Application Closed by User
